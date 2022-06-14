@@ -9,6 +9,6 @@ from rest_framework.viewsets import ModelViewSet
 #     queryset = Blog.objects.all()
 
 
-class BlogGRUD(ModelViewSet):
+class BlogCRUD(ModelViewSet):
     queryset = Blog.objects.all()
     serializer_class = BlogSerializer
